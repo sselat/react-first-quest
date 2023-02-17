@@ -1,23 +1,18 @@
 import './colorPicker.css'
 
-const ColorPicker = ({backgroundColor, textColor}) => {
+const ColorPicker = () => {
     return (
         <div className="colorSelector">
             <div className="inputDiv">
-                <input type="color" id="head" name="head" value={backgroundColor}/>
+                <input type="color" id="head" name="head" />
                 <label for="head">Background</label>
             </div>
 
             <div className="inputDiv">
-                <input type="color" id="body" name="body" value={textColor}/>
+                <input type="color" id="body" name="body" />
                 <label for="body">Texto</label>
             </div>
         </div>
     )
-}
-
-ColorPicker.defaultProps = {
-    backgroundColor: '#fff',
-    textColor: '#000'
 }
 export default ColorPicker

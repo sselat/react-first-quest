@@ -4,7 +4,9 @@ import ColorPicker from './components/colorPicker/colorPicker.js'
 function App() {
   return (
     <div className="App">
-      <TextCard backgroundColor={'lightgreen'} textColor={'darkgreen'}/>
+      <TextCard bgColor={'lightgreen'} txtColor={'darkgreen'}/>
+      <TextCard bgColor={'red'} txtColor={'pink'}/>
+      <TextCard bgColor={'pink'} txtColor={'red'}/>
       <ColorPicker />
     </div>
   );
