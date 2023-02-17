@@ -1,4 +1,5 @@
 import TextCard from './components/textCard/textCard.js'
+import './App.css'
 
 function App() {
   return (
