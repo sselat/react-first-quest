@@ -5,6 +5,11 @@ Este é um projeto simples criado para ajudar iniciantes a aprender React. Ele �
 ## Como utilizar
 Para utilizar este projeto, você precisa ter o Node.js instalado em sua máquina. Após clonar o repositório, siga as etapas abaixo:
 
+### Acesse a pasta do app:
+```bash
+cd coloring-texts-app
+```
+
 ### Instale as dependências do projeto:
 ```bash
 npm install
