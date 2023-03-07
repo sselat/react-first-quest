@@ -1,13 +1,10 @@
-import TextCard from './components/textCard/textCard.js'
 import './App.css'
+import Cards from './components/cards/cards.js';
 
 function App() {
   return (
     <div className="App">
-      <TextCard bgColor='lightgreen' txtColor='darkgreen'/>
-      <TextCard bgColor='red' txtColor='pink'/>
-      <TextCard bgColor='blue' txtColor='white'/>
-      <TextCard/>
+      <Cards/>
     </div>
   );
 }

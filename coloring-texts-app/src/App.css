@@ -1,3 +1,6 @@
 body {
     background-image: radial-gradient(white, grey, black);
 }
+h2 {
+    text-align: center;
+}
